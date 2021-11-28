@@ -35,6 +35,7 @@ endef
 
 include $(CURDIR)/deps.mk
 include $(CURDIR)/dagger.mk
+include $(CURDIR)/crossplane.mk
 include $(CURDIR)/linode.mk
 include $(CURDIR)/secrets.mk
 include $(CURDIR)/grafana-agent.mk
